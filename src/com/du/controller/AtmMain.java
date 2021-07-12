@@ -5,7 +5,6 @@ import com.du.bean.CustomerData;
 import com.du.service.CustomerService;
 import com.du.util.TextUtil;
 import com.sun.org.apache.bcel.internal.generic.NEW;
-
 import java.util.List;
 import java.util.Scanner;
 

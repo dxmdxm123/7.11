@@ -28,5 +28,27 @@ public class TextUtil {
         System.out.println("******5.退卡       ***********");
         System.out.println("******************************");
     }
+    // static  方法名带有static 关键字的静态方法，可以直接 类名.方 法（） 调用
+    public static void   doSaveMoney(){
+        System.out.println("******************************");
+        System.out.println("********想要取款的金额*******");
+        System.out.println("********1.100      2.200********");
+        System.out.println("********3.300      4.500********");
+        System.out.println("********5.800      6.1000*******");
+        System.out.println("********7.2000     8.其他*******");
+        System.out.println("******************************");
+    }
+
+
+    public static void upMoneyUI(){
+        System.out.println("******************************");
+        System.out.println("********想要存款的金额*******");
+        System.out.println("********1.100      2.200********");
+        System.out.println("********3.300      4.500********");
+        System.out.println("********5.800      6.1000*******");
+        System.out.println("********7.2000     8.其他*******");
+        System.out.println("*****注：存的钱必须为整数*******");
+        System.out.println("******************************");
+    }
 }
 
